@@ -1,0 +1,492 @@
+#1546562691
+ls
+#1546562779
+mkdir mission10
+#1546562781
+ls
+#1546562785
+cd mission10/
+#1546562786
+ls
+#1546562799
+cd ..
+#1546562803
+cd mission9
+#1546562805
+ls
+#1546562842
+cp dockerfile docker-compose.yml /root/mission10/
+#1546562857
+cp -r work/ /root/mission10/
+#1546562863
+cd ..
+#1546562867
+cd mission10/
+#1546562868
+ls
+#1546562875
+cd work/
+#1546562876
+ls
+#1546562883
+ls -a
+#1546562945
+rm -r .ipynb_checkpoints/ mariaDBinstall.ipynb 
+#1546562948
+ls -a
+#1546562953
+rm -r .ipynb_checkpoints/ mariaDBinstall.ipynb 
+#1546562958
+y
+#1546562960
+ls
+#1546562962
+ls -a
+#1546562965
+cd ..
+#1546562966
+ls
+#1546563019
+vim dockerfile 
+#1546563028
+vim docker-compose.yml 
+#1546563161
+echo ".checkpoint" > .gitignore
+#1546563168
+ls -a
+#1546563170
+ll
+#1546563200
+vim docker-compose.yml 
+#1546563428
+vim dockerfile 
+#1546563467
+history 
+#1546563863
+echo "mysql/data" >> .gitignore
+#1546563874
+vim .gitignore 
+#1546564097
+docker container ps
+#1546564100
+docker container ls -a
+#1546564122
+ls
+#1546564144
+mkdir -r mysql/data
+#1546564148
+mkdir -R mysql/data
+#1546564160
+mkdir --help 
+#1546564177
+mkdir -R ./mysql/data
+#1546564181
+mkdir -r ./mysql/data
+#1546564207
+mkdir -p ./mysql/data
+#1546564208
+ls
+#1546564211
+ll
+#1546564215
+ll -pl
+#1546564219
+ll -Rl
+#1546564271
+vim docker-compose.yml 
+#1546564332
+cd mysql/
+#1546564332
+ls
+#1546564333
+ll
+#1546564348
+chmod o+w data/
+#1546564349
+ll
+#1546564356
+cd ..
+#1546564394
+ll
+#1546564402
+cd work/
+#1546564403
+ls
+#1546564422
+chmod o+w  work/
+#1546564425
+chmod o+w  work
+#1546564468
+ll
+#1546564473
+cd ..
+#1546564476
+chmod o+w  work
+#1546564477
+ls
+#1546564479
+ll
+#1546564771
+ls -a
+#1546564777
+cat .gitignore 
+#1546564797
+docker-compose up -d
+#1546564847
+vim dockerfile 
+#1546564915
+docker-compose ps
+#1546564978
+cd ..
+#1546564993
+history > history
+#1546565003
+vim history 
+#1546566325
+docker exec -it mysql.lab 
+#1546566339
+docker exec -it mysql.lab /bin/bash
+#1546566713
+docker-compose ps
+#1546566721
+cd mission10/
+#1546566723
+docker-compose ps
+#1546566866
+docker exec -it mysql.lab /bin/bash
+#1546567410
+ls
+#1546567417
+ll
+#1546567420
+cd mysql/
+#1546567421
+ll
+#1546567631
+cd ..
+#1546567635
+docker exec -it mysql.lab /bin/bash
+#1546571522
+docker container ls
+#1546571564
+docker-compose down
+#1546571574
+docker-compose ps
+#1546575582
+cd ..
+#1546575597
+cp -r mission10 mission11
+#1546575604
+ls mission11
+#1546575614
+cd mission11
+#1546575616
+ls
+#1546575814
+ls -a
+#1546575859
+vim .gitignore 
+#1546575878
+vim docker-compose.yml 
+#1546575917
+docker pull amazon/dynamodb-local
+#1546576308
+vim docker-compose.yml 
+#1546579104
+vim dockerfile 
+#1546579143
+vim docker-compose.yml 
+#1546582383
+cd
+#1546582855
+mkdir DevOps
+#1546582860
+cd De
+#1546582868
+cd DevOps/
+#1546582874
+git clone https://github.com/BingHongLi/aws-devops-tutorial.git
+#1546582880
+;s
+#1546582881
+ls
+#1546582883
+cd aws-devops-tutorial/
+#1546582884
+ls
+#1546582891
+cat Dockerfile 
+#1546583087
+yum insatll awscli
+#1546583115
+yum  list
+#1546583146
+pip insatll awscli
+#1546583153
+yum insatll awscli
+#1546583165
+yum install awscli
+#1546583200
+history 
+#1546583303
+aswcli config
+#1546583320
+aws config
+#1546583343
+awscli config
+#1546583358
+whereis awscli
+#1546583384
+aws confure
+#1546583390
+aws configure
+#1546583642
+ls
+#1546583651
+git branch
+#1546583662
+git checkout ver2.0
+#1546583666
+git checkout ver3.0
+#1546583672
+git branch
+#1546583680
+git checkout master
+#1546583685
+git branch
+#1546584498
+git remote -v
+#1546584524
+git remote add aws https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/c1104_repo_student09
+#1546584531
+git remote -v
+#1546584748
+git config --global credential.helper '!aws codecommit credential-helper $@'
+#1546584754
+git config --global credential.UseHttpPath true
+#1546584879
+gti push aws --all
+#1546584884
+git push aws --all
+#1546585618
+date
+#1546585635
+man date
+#1546586409
+ls
+#1546586411
+cd ..
+#1546586412
+ls
+#1546586414
+cd ..
+#1546586415
+ls
+#1546586496
+cd Desktop/
+#1546586531
+ssh -i student.pem ec2-user@52.194.193.199
+#1546586660
+chmod 700 student.pem 
+#1546586662
+ssh -i student.pem ec2-user@52.194.193.199
+#1546596212
+ls
+#1546596386
+cd
+#1546596388
+ls
+#1546596390
+cd a
+#1546596409
+cd docker-compose_tutorial/
+#1546596409
+ls
+#1546596413
+cd 
+#1546596571
+get clone https://github.com/BingHongLi/aws-devops-tutorial.git
+#1546596580
+git clone https://github.com/BingHongLi/aws-devops-tutorial.git
+#1546596586
+cd aws-devops-tutorial/
+#1546596587
+ls
+#1546596598
+git checkout ver4.0
+#1546596601
+ls
+#1546596609
+vi build.sh 
+#1546596648
+vi buildspec.yml 
+#1546596794
+git push aws ver4.0
+#1546596856
+git config --global credential.helper '!aws codecommit credential-helper $@'
+#1546596861
+git config --global credential.UseHttpPath true
+#1546596864
+git push aws ver4.0
+#1546596918
+find / | grep aws-dev
+#1546596935
+cd
+#1546596943
+cd DevOps/
+#1546596944
+ls
+#1546596946
+cd a
+#1546596950
+cd aws-devops-tutorial/
+#1546596952
+ls
+#1546596962
+git checkout ver4.0
+#1546596964
+ls
+#1546596970
+vi build.sh 
+#1546596993
+vi buildspec.yml 
+#1546597023
+git push aws ver4.0
+#1546597451
+vi buildspec.yml 
+#1546597462
+vi build.sh 
+#1546598022
+gti add build.sh 
+#1546598027
+git add build.sh 
+#1546598031
+git add buildspec.yml
+#1546598046
+git remote -v
+#1546598102
+git commit -m "cc104"
+#1546598142
+git push aws ver4.0
+#1546598284
+git --help 
+#1546598375
+git config user.name 
+#1546600876
+cd
+#1546600894
+ls
+#1546600929
+ssh -i Desktop/student.pem ec2-user@54.95.148.246
+#1546602385
+ssh -i Desktop/student.pem ec2-user@13.230.202.67
+#1546604775
+ls
+#1546604781
+cd DevOps/
+#1546604781
+ls
+#1546604785
+cd aws-devops-tutorial/
+#1546604785
+ls
+#1546604792
+cd web/
+#1546604795
+ls
+#1546604815
+vim app.py 
+#1546605181
+ls
+#1546605184
+cd ..
+#1546605185
+ls
+#1546605194
+vim VERSION 
+#1546605371
+git add web/app.py
+#1546605377
+git add VERSION
+#1546605429
+git commit -m "update ver4.0"
+#1546605457
+git push aws
+#1546608654
+ls
+#1546608655
+cd 
+#1546608660
+cd mission11/
+#1546608661
+ls
+#1546608749
+vim docker-compose.yml 
+#1546608772
+vim dockerfile 
+#1546608795
+
+#1546608972
+vim docker-compose.yml 
+#1546609829
+docker-compose up -d
+#1546609839
+docker-compose config
+#1546609862
+vim docker-compose.yml 
+#1546609878
+docker-compose config
+#1546609904
+vim docker-compose.yml 
+#1546609920
+docker-compose config
+#1546609940
+vim docker-compose.yml 
+#1546610879
+docker-compose config
+#1546610902
+vim docker-compose.yml 
+#1546610914
+docker-compose up -d
+#1546610958
+vim dockerfile 
+#1546611093
+docker-compose up -d
+#1546611111
+docker-compose down
+#1546611117
+docker-compose up -d
+#1546611126
+docker-compose ps
+#1546611139
+docker-compose ls
+#1546611157
+docker-compose ps
+#1546611206
+curl cc104.dynamodb.local
+#1546611251
+docker exec -it dynamodb.lab /bin/bash
+#1546611303
+docker container ls
+#1546611319
+docker container inspect dynamodb.lab 
+#1546611340
+docker container inspect dynamodb.lab | grep domainame
+#1546611345
+docker container inspect dynamodb.lab | grep cc104
+#1546611434
+ls
+#1546611436
+ll
+#1546611452
+chmod o+w work/
+#1546611460
+ll
+#1546611618
+vim docker-compose.yml 
+#1546611804
+vim dockerfile 
+#1546611933
+docker-compose down
+#1546612047
+init 0
